@@ -28,7 +28,7 @@ url:
 github_username: ac-inscript
 
 # Build settings
-theme: Cayman
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
