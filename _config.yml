@@ -21,10 +21,10 @@
 title: Learning Wikidata: An Epigraphic Journey
 email: anna.manieroazzolini@london.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
- Welcome to Inscript, an experimental database of inscriptions, where I document the process of building and curating an epigraphic hub, as well as learning how to deal with them digitally. This is a work in progress, and I will be adding more content as I go along.
+ Welcome to the Learning Wikidata Hub! This project is dedicated to providing resources and tutorials for learning how to use Wikidata, with a focus on epigraphy. Whether you're a beginner or an experienced user, you'll find valuable information and guides to help you navigate and contribute to Wikidata effectively.
 color: "#B8CEE8"
-baseurl: "/Learning-Wikidata" # the subpath of your site, e.g. /blog
-url: "https://ac-inscript.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: 
+url: 
 github_username: ac-inscript
 
 # Build settings
@@ -51,5 +51,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-url: "https://ac-inscript.github.io"
-baseurl: "/Learning-Wikidata"
