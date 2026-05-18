@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Learning Wikidata: An Epigraphic Journey
+title: "Learning Wikidata: An Epigraphic Journey"
 email: anna.manieroazzolini@london.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
  Welcome to the Learning Wikidata Hub! This project is dedicated to providing resources and tutorials for learning how to use Wikidata, with a focus on epigraphy. Whether you're a beginner or an experienced user, you'll find valuable information and guides to help you navigate and contribute to Wikidata effectively.
