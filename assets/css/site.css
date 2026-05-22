@@ -68,7 +68,8 @@ h1, h2, h3 {
 
 .site-footer .footer-content {
   max-width:900px;
-  margin:0 auto;
+  margin-left: 0;
+  margin-right: 4rem;
   padding:0 16px;
 }
 
