@@ -68,6 +68,27 @@ body {
   display: block;
 }
 
+.site-footer {
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer-left {
+  flex: 1 1 300px;
+}
+
+.footer-right {
+  flex: 0 0 auto;
+  text-align: right;
+}
+
 @media (max-width: 760px) {
   .site-header-inner {
     flex-direction: column;
@@ -80,6 +101,15 @@ body {
 
   .video-container iframe {
     height: 250px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-right {
+    text-align: left;
   }
 }
 
