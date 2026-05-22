@@ -14,7 +14,6 @@ h1,h2,h3 {
   color: #150664;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
-  margin-left: 5px;
 }
 
 .site-header {
@@ -51,9 +50,10 @@ h1,h2,h3 {
 }
 
 .site-main {
-  width: 100%;
-  padding: 0 16px;
-  flex: 1;
+  max-width:900px;
+  margin:0 auto;
+  padding:0 16px;
+  flex:1;
 }
 
 .site-footer {
