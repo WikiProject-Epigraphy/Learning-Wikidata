@@ -51,8 +51,8 @@ h1, h2, h3 {
 
 .site-main {
   width: auto;
-  max-width:1200px;
-  margin: 20rem 32px 0;
+  max-width:900px;
+  margin: 0 auto;
   padding:0;
   flex: 1;
 }
