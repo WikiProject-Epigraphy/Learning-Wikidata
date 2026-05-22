@@ -45,20 +45,24 @@ h1, h2, h3 {
   text-decoration:none;
 }
 
-.site-main,
-.site-footer {
+.site-main {
   max-width:900px;
   margin:0 auto;
   padding:0 16px;
-}
-
-.site-main {
   margin-top:28px;
 }
 
 .site-footer {
-  margin-top:40px;
-  color:#000000;
+   width:100%;
+   background: #e5e5e5;
+   padding: 1rem 0;
+   margin-top:40px;
+   color:#000000;
+ }
+ .site-footer .footer-content {
+   max-width:900px;
+   margin:0 auto;
+   padding:0 16px;
 }
 
 .video-container {
@@ -71,19 +75,6 @@ h1, h2, h3 {
   width: 50%;
   height: 450px;
   display: block;
-}
-
-.site-footer {
-  margin-top: 40px;
-}
-
-.footer-content {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #666;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: center;
 }
 
 .footer-left {
