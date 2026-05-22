@@ -53,7 +53,7 @@ h1, h2, h3 {
   width: auto;
   max-width: 900px;
   margin: 0 auto;
-  padding:0;
+  padding:0 16px;
   flex: 1;
 }
 
