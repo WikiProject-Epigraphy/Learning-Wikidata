@@ -13,7 +13,7 @@ permalink: /video-tutorials/
 </div>
 <!-- markdownlint-enable MD033 -->
 
-## Episode 2: Why Wikidata matters for Epigraphy
+<h2>Episode 2: Why Wikidata matters for Epigraphy</h2>
 
 <!-- markdownlint-disable MD033 -->
 <div class="video-container">
