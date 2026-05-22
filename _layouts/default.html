@@ -7,24 +7,24 @@
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
-  <header style="background:#B8CEE8;padding:10px 0;">
-    <div style="max-width:900px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 16px;">
-      <div style="color:#fff;font-weight:bold;">{{ site.title }}</div>
-      <nav>
-        <a href="{{ '/' | relative_url }}" style="color:#fff;margin:0 10px;text-decoration:none;">Home</a>
-        <a href="{{ '/video-tutorials/' | relative_url }}" style="color:#fff;margin:0 10px;text-decoration:none;">Video Tutorials</a>
-        <a href="{{ '/useful-resources/' | relative_url }}" style="color:#fff;margin:0 10px;text-decoration:none;">Useful Resources</a>
-        <a href="{{ '/tools/' | relative_url }}" style="color:#fff;margin:0 10px;text-decoration:none;">Tools</a>
-        <a href="{{ '/exercises/' | relative_url }}" style="color:#fff;margin:0 10px;text-decoration:none;">Exercises</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="site-title">{{ site.title }}</div>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/video-tutorials/' | relative_url }}">Video Tutorials</a>
+        <a href="{{ '/useful-resources/' | relative_url }}">Useful Resources</a>
+        <a href="{{ '/tools/' | relative_url }}">Tools</a>
+        <a href="{{ '/exercises/' | relative_url }}">Exercises</a>
       </nav>
     </div>
   </header>
 
-  <main style="max-width:900px;margin:28px auto;padding:0 16px;">
+  <main class="site-main">
     {{ content }}
   </main>
 
-  <footer style="max-width:900px;margin:40px auto;padding:0 16px;color:#666;">
+  <footer class="site-footer">
     © {{ site.time | date: '2026' }}. All rights reserved.
   </footer>
 </body>
