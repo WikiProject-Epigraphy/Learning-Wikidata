@@ -14,7 +14,7 @@ h1, h2, h3 {
   color:#150664;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
-  position:center;
+  margin-left: 5px;
 }
 .site-header {
   background:#396eaf;
@@ -52,7 +52,7 @@ h1, h2, h3 {
 .site-main {
   width: auto;
   max-width:1200px;
-  margin: 100px 32px 0;
+  margin: 20rem 32px 0;
   padding:0;
   flex: 1;
 }
