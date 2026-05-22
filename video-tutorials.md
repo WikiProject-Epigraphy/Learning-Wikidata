@@ -4,7 +4,8 @@ title: Video Tutorials
 permalink: /video-tutorials/
 ---
 
-## Episode 1: What is Wikidata?
+<!-- markdownlint-disable MD033 -->
+<h1>What is Wikidata?</h1>
 
 <!-- markdownlint-disable MD033 -->
 <div class="video-container">
