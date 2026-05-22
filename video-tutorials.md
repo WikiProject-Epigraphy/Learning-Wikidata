@@ -5,7 +5,7 @@ permalink: /video-tutorials/
 ---
 
 <!-- markdownlint-disable MD033 -->
-<h1>What is Wikidata?</h1>
+<h2>What is Wikidata?</h2>
 
 <!-- markdownlint-disable MD033 -->
 <div class="video-container">
