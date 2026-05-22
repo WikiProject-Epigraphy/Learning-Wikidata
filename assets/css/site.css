@@ -87,6 +87,8 @@ body {
 .footer-right {
   flex: 0 0 auto;
   text-align: right;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
 }
 
 @media (max-width: 760px) {
