@@ -54,6 +54,8 @@ h1,h2,h3 {
   margin:0 auto;
   padding:0 16px;
   flex:1;
+  border: 5px solid red;
+}
 }
 
 .site-footer {
