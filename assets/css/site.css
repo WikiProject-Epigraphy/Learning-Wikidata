@@ -50,13 +50,6 @@ h1,h2,h3 {
   text-decoration: none;
 }
 
-.site-main {
-  width: 50%;
-  padding: 0 16px;
-  align-items: center;
-  flex: 1;
-}
-
 .site-footer {
   width: 100%;
   background: #e5e5e5;
