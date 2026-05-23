@@ -13,10 +13,19 @@ body {
   flex-direction: column;
 }
 
-h1,h2,h3 {
+h1, h2, h3, h4, p, pre,
+ul, ol, dl, figure,
+.highlight {
+  margin-bottom: 15px;
   color: #150664;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+main {
+  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
 
 .site-header {
@@ -114,6 +123,24 @@ h1,h2,h3 {
 
   .footer-right {
     text-align: left;
+  }
+
+  a {
+    color: #2a7ae2;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(22.9483471074, 86.2541322314, 168.5516528926);
+  }
+  a:hover {
+    color: #111;
+    text-decoration: underline;
+  }
+  .social-media-list a:hover {
+    text-decoration: none;
+  }
+  .social-media-list a:hover .username {
+    text-decoration: underline;
   }
 }
 
