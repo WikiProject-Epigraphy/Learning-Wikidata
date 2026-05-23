@@ -20,6 +20,7 @@ h1,h2,h3 {
 }
 
 .site-header {
+  max-width: 100%;
   background: #396eaf;
   padding: 30px 0;
 }
