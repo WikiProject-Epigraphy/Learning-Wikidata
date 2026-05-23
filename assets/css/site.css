@@ -52,6 +52,7 @@ h1,h2,h3 {
 .site-main {
   width: 100%;
   padding: 0 16px;
+  align-items: justify-content: center;
   flex: 1;
 }
 
