@@ -2,7 +2,8 @@ body {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
   background: #fff;
   color: #111;
-  margin: 0;
+  max-width: 900px;
+  margin: 0 auto;
   padding: 0;
   line-height: 1.6;
   min-height: 100vh;
