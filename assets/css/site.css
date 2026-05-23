@@ -46,21 +46,20 @@ h1, h2, h3 {
 }
 
 .site-main {
-   max-width:900px;
-   margin:0 auto;
-   padding:0 16px;
- }
- 
- .site-main {
-   margin-top:28px;
+  width: auto;
+  max-width:1200px;
+  margin:28px 32px 0;
+  padding:0;
+  flex: 1;
  }
  
  .site-footer {
-   width:100%;
-   background: #e5e5e5;
-   padding: 1rem 0;
-   margin-top:40px;
-   color:#000000;
+  width:100%;
+  background: #e5e5e5;
+  padding: 1rem 0;
+  margin-top:40px;
+  color:#000000;
+  flex-shrink: 0;
  }
  .site-footer .footer-content {
    max-width:900px;
@@ -78,16 +77,6 @@ h1, h2, h3 {
   width: 50%;
   height: 450px;
   display: block;
-}
-
-.site-footer {
-  margin-top: 40px;
-}
-
-.footer-content {
-  display: flex;
-  flex-wrap: wrap;
-
 }
 
 .footer-left {
